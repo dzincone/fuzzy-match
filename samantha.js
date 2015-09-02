@@ -1,4 +1,7 @@
-//If this qualifies...its what I ended up with: 
+//If this qualifies...its what I ended up with:
+
+var names = ["mike", "dave", "jack", "marry", "jim", "jill", "june", "grey", "greg", "mark", "derrek", "richard", "bmw"]
+
 
 function search(criteria, arrayToSearch, fuzzyOrNo, tolerance) {
   var filtered = [];

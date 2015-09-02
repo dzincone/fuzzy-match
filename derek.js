@@ -7,7 +7,7 @@ function searchText(argument) {
     for (var a = 0; a < indices.length; a++) {
       mini_string = names[i].substring(indices[a],indices[a]+argument.length);
       if ((mini_string.length >= argument.length) && (fuzzyMatch(argument, mini_string))){
-        if(!inArray(found_names,names[i])){
+         if(!inArray(found_names,names[i])){
           found_names.push(names[i]);
         }
       }
